@@ -71,3 +71,36 @@ h1 {
   width: 50;
 }
 
+.btn:hover {
+  background-color: rgba(249, 79, 109, 1);
+
+  color: #eeeeee;
+  cursor: pointer;
+}
+
+.new-game {
+  flex-direction: column;
+  display: flex;
+
+  margin: 110px 0px 0px 0px;
+}
+
+.timer {
+  background-color: black;
+  margin-bottom: 80px;
+  height: 50px;
+  color: rgba(249, 79, 109, 1);
+  font-family: MyFont;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 5px;
+  border-radius: 8px;
+  flex-direction: column;
+}
+
+#time {
+  display: flex;
+  margin: 3px auto;
+}
+

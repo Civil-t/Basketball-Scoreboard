@@ -1,44 +1,45 @@
 let homeScore = document.getElementById("home-scores");
 let guestScore = document.getElementById("guest-scores");
-let scoreline = 0;
+let homeScoreline = 0;
+let guestScoreline = 0;
 
 function plus1() {
-  scoreline += 1;
-  homeScore.innerText = scoreline;
+  homeScoreline += 1;
+  homeScore.innerText = homeScoreline;
 
-  console.log("clicked " + scoreline);
+  console.log("clicked " + homeScoreline);
 }
 
 function plus11() {
-  scoreline += 1;
-  guestScore.innerText = scoreline;
+  guestScoreline += 1;
+  guestScore.innerText = guestScoreline;
 
-  console.log("clicked " + scoreline);
+  console.log("clicked " + guestScoreline);
 }
 
 function plus2() {
-  scoreline += 2;
-  homeScore.innerText = scoreline;
+  homeScoreline += 2;
+  homeScore.innerText = homeScoreline;
 
-  console.log("clicked " + scoreline);
+  console.log("clicked " + homeScoreline);
 }
 
 function plus22() {
-  scoreline += 2;
-  guestScore.innerText = scoreline;
+  guestScoreline += 2;
+  guestScore.innerText = guestScoreline;
 
-  console.log("clicked " + scoreline);
+  console.log("clicked " + guestScoreline);
 }
 function plus3() {
-  scoreline += 3;
-  homeScore.innerText = scoreline;
+  homeScoreline += 3;
+  homeScore.innerText = homeScoreline;
 
-  console.log("clicked " + scoreline);
+  console.log("clicked " + homeScoreline);
 }
 
 function plus33() {
-  scoreline += 3;
-  guestScore.innerText = scoreline;
+  guestScoreline += 3;
+  guestScore.innerText = guestScoreline;
 
-  console.log("clicked " + scoreline);
+  console.log("clicked " + guestScoreline);
 }

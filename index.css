@@ -1,16 +1,16 @@
 body {
   margin: 0;
-  background-color: cornsilk;
+  background-color: grey;
 }
 
 .container {
   display: flex;
   justify-content: space-around;
-  background-color: grey;
+  background-color: #1b244a;
   height: 40vh;
   width: 70vh;
   margin: 0 auto;
-  border: 5px solid black;
+  border: 5px solid white;
   border-radius: 23px;
 }
 
@@ -18,12 +18,18 @@ body {
 .guest-score {
   background-color: black;
   border-radius: 3px;
-  height: 50px;
-  color: white;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: MyFont;
+  color: #f94f6d;
+}
+
+.score {
+  font-size: 67px;
+  display: flex;
+  margin: 0 auto;
 }
 
 @font-face {
@@ -35,11 +41,12 @@ h1 {
   align-items: center;
   justify-content: center;
   display: flex;
-  font-family: MyFont;
+  font-family: Verdana;
+  color: #eeeeee;
 }
 
 .btns {
-  margin-top: 10px;
+  margin-top: 25px;
 }
 
 .btn {
@@ -49,9 +56,7 @@ h1 {
   color: white;
   padding: 5px 10px;
   font-family: MyFont;
-}
-
-.home {
-  background-color: cornflowerblue;
+  height: 45px;
+  width: 50;
 }
 

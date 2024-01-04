@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background-color: cornsilk;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: grey;
+    height: 50vh;
+    width: 70vh;
+    margin: 0 auto;
+    border: 5px solid black;
+    border-radius: 23px;
+}
+
+.home-score{
+    background-color: black;
+    border-radius: 3px;
+    height: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.guest-score{
+    background-color: black;
+    border-radius: 3px;
+    height: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btns {
+    margin-top: 10px;
+}
+
+.btn {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+}

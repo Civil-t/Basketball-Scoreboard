@@ -7,7 +7,7 @@ body {
     display: flex;
     justify-content: space-around;
     background-color: grey;
-    height: 50vh;
+    height: 40vh;
     width: 70vh;
     margin: 0 auto;
     border: 5px solid black;
@@ -35,6 +35,11 @@ body {
     justify-content: center;
 
 }
+h1 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
 
 .btns {
     margin-top: 10px;
@@ -46,4 +51,8 @@ body {
     border-radius: 5px;
     color: white;
     padding: 5px 10px;
+}
+
+.home {
+    background-color: cornflowerblue;
 }

@@ -1,58 +1,57 @@
 body {
-    margin: 0;
-    background-color: cornsilk;
+  margin: 0;
+  background-color: cornsilk;
 }
 
 .container {
-    display: flex;
-    justify-content: space-around;
-    background-color: grey;
-    height: 40vh;
-    width: 70vh;
-    margin: 0 auto;
-    border: 5px solid black;
-    border-radius: 23px;
+  display: flex;
+  justify-content: space-around;
+  background-color: grey;
+  height: 40vh;
+  width: 70vh;
+  margin: 0 auto;
+  border: 5px solid black;
+  border-radius: 23px;
 }
 
-.home-score{
-    background-color: black;
-    border-radius: 3px;
-    height: 50px;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+.home-score,
+.guest-score {
+  background-color: black;
+  border-radius: 3px;
+  height: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: MyFont;
 }
 
-.guest-score{
-    background-color: black;
-    border-radius: 3px;
-    height: 50px;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+@font-face {
+  font-family: MyFont;
+  src: url(fonts/CursedTimerUlil-Aznm.ttf) format("truetype");
 }
+
 h1 {
-    align-items: center;
-    justify-content: center;
-    display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-family: MyFont;
 }
 
 .btns {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .btn {
-    background-color: transparent;
-    border: 1px solid white;
-    border-radius: 5px;
-    color: white;
-    padding: 5px 10px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  padding: 5px 10px;
+  font-family: MyFont;
 }
 
 .home {
-    background-color: cornflowerblue;
+  background-color: cornflowerblue;
 }
+

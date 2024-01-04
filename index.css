@@ -81,8 +81,26 @@ h1 {
 .new-game {
   flex-direction: column;
   display: flex;
-
   margin: 110px 0px 0px 0px;
+  height: 100px;
+}
+
+.btn-new-game {
+  background-color: transparent;
+  border: 2px solid gba(17, 24, 39, 1);
+  border-radius: 5px;
+  color: rgba(17, 24, 39, 1);
+  padding: 5px 10px;
+  font-family: Verdana;
+  height: 45px;
+  width: 80;
+  margin: 0 auto;
+}
+
+.btn-new-game:hover {
+  background-color: rgba(249, 79, 109, 1);
+  color: #eeeeee;
+  cursor: pointer;
 }
 
 .timer {
